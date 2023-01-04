@@ -1,10 +1,17 @@
-# Nuxt 3 Minimal Starter
+# Nuxt3(Stable 版) example
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Nuxt.js の example
+公式 [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction)
 
-## Setup
+## 環境構築
 
-Make sure to install the dependencies:
+### 1. `git clone`
+
+```bash
+git@github.com:fjwr1024/nuxt3-app.git
+```
+
+### 2. `yarn(npm) install`
 
 ```bash
 # yarn
@@ -12,14 +19,23 @@ yarn install
 
 # npm
 npm install
-
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
-## Development Server
+### 3. `yarn(npm run) dev`
 
-Start the development server on http://localhost:3000
+`yarn(npm run) dev`でローカルサーバーを立ち上げ。
+
+```bash
+yarn dev
+```
+
+```bash
+npm run  dev
+```
+
+## 開発サーバー
+
+http://localhost:3000
 
 ```bash
 npm run dev
@@ -27,16 +43,12 @@ npm run dev
 
 ## Production
 
-Build the application for production:
-
 ```bash
 npm run build
 ```
 
-Locally preview production build:
+ローカルプレビュー用ビルド
 
 ```bash
 npm run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
